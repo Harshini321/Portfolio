@@ -32,9 +32,19 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.about-header{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .about-card{
   margin: auto;
   width: 50%;
+}
+
+/* skills */
+.bg-skills{
+  background-color: #000;
 }
 
 /* ===== FOOTER =====*/
