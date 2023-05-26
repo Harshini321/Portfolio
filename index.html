@@ -15,80 +15,425 @@
 <body>
     <!-- <h1>Hello World!</h1> -->
     <div>
-        <div class="home">
-            <!-- particles.js container -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="row">
-                    <div class="col-8"></div>
-                    <div class="col-4">
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="#about">About</a>
-                                <a class="nav-item nav-link" href="#skills">Skills</a>
-                                <a class="nav-item nav-link" href="#projects">Projects</a>
-                                <!-- <a class="nav-item nav-link" href="#">Projects</a> -->
-                                <a class="nav-item nav-link" href="#hoobies">Hoobies</a>
-                                <a class="nav-item nav-link" href="#experience">Experience</a>
-                                <a class="nav-item nav-link" href="#education">Education</a>
-                                <a class="nav-item nav-link" href="#contact">Contact</a>                                
-                            </div>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-bg">
+            <a class="navbar-brand mx-3 px-3 nav-head" href="#">Harshini</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav-right">
+                            <a class="nav-item nav-link active gap" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link gap" href="#about">About</a>
+                            <a class="nav-item nav-link gap" href="#skills">Skills</a>
+                            <a class="nav-item nav-link gap" href="#projects">Projects</a>
+                            <!-- <a class="nav-item nav-link" href="#">Projects</a> -->
+                            <a class="nav-item nav-link gap" href="#hoobies">Hoobies</a>
+                            <a class="nav-item nav-link gap" href="#experience">Experience</a>
+                            <a class="nav-item nav-link gap" href="#education">Education</a>
+                            <a class="nav-item nav-link gap" href="#contact">Contact</a>                                
                         </div>
                     </div>
-                </div>
                 
-              </nav>
+            </div>
+            
+          </nav>
+        <div class="home">
+            <!-- particles.js container -->
+            
             <div id="particles-js"></div> <!-- stats - count particles -->
-            <div class="count-particles" id="home">  
+            <section class="count-particles" id="home">  
                 <div class="">
                     <div class="card-body bg-clr">
                         <div class="card-margin">
                             <h5 class="card-title txt-clr main-header">Hi!</h5>
-                            <h5 class="card-title txt-clr main-header">I'am Harshini</h5>
+                            <h5 class="card-title txt-clr main-header"><span>I'am Harshini</span></h5>
                             <!-- <h6 class="card-subtitle mb-2 text-muted txt-clr">Card subtitle</h6> -->
-                            <p class="card-text txt-clr">Currently pursuing BTech in CSE at IIT Delhi</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <p class="card-text txt-clr main-txt">Currently pursuing BTech in CSE at IIT Delhi</p>
+                            <!-- <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a> -->
+                            <div class="social-media">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class='bx bxl-github' ></i></a>
+                                <a href="#"><i class='bx bx-envelope' ></i></i></a>
+                                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                            </div>
                         </div>
                      
                     </div>
                   </div>
-            </div>
+            </section>
            
             <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
             <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
         </div>
-        <div class="about bg-about" id="about">
+        <section class="about bg-about" id="about">
             <div class="container-fluid">
                 <!-- <h1>About</h1> -->
-                <h4 class="about-header">About</h4>
+                <!-- <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-1"> -->
+                        <h4 class="about-header text-center">About</h4>
+                    <!-- </div>
+                </div>     -->
                 <div class="card about-card">
                     <div class="card-body">
-                      <h5 class="card-title">I'am Harshini</h5>
-                      <p class="card-text">
+                      <h5 class="card-title about-txt1 ">I'am Harshini</h5>
+                      <p class="card-text about-txt2 mt-3">
                         I am currently pursuing B.Tech in CSE at IIT Delhi.
+                         </p>
+                      <p class="card-text about-txt2">
                         As a full-stack developer, I possess a diverse range of skills and hands-on experience in utilizing libraries and frameworks such as Django, Node.js, Express.js, React.js, Bootstrap, and more.
+                        
+                      </p>
+                      <p class="card-text about-txt2">
                         I have garnered practical experience in C, C++, Python, and Javascript etc with a particular focus on competitive programming in C++ and implementing efficient data structures.
+                       
+                      </p>
+                      <p class="card-text about-txt2">
                         Alongside my programming expertise, I find joy in artistic pursuits such as sketching and playing the guitar, as well as finding inspiration through music.
+                     
                       </p>
                       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
             </div>
             
-        </div>
-        <div class="skills bg-skills" id="skills">
-            <div class="container-fluid">
-                <h1>Skills</h1>
+        </section>
+        <div class="skills bg-skills py-3" id="skills">
+            <div class="container-fluid pt-3">
+                <h4 class="about-header text-center">Skills</h4>
+                <p class="card-text about-txt3 mt-3">
+                    I bring a comprehensive set of skills and expertise to the table, allowing me to excel in various aspects of software development. Here are some of the key skills that define my professional profile
+                </p>
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 skill-box">
+                                <h4 class="skill-header text-center">Languages</h4>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:c-plusplus" data-inline="false"></span>
+                                        <span class="skills__name"> &nbsp C/C++</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="85">
+          
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">85%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data ">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:python" data-inline="false"></span>
+                                        <span class="skills__name"> &nbsp Python</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="85">
+          
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">85%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span style="width: 50px;height: 27px;"class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+                                        <span class="skills__name">&nbsp Javascript</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="65">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">65%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="devicon:bash" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Bash</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="col-6 skill-box">
+                                <h4 class="skill-header text-center">Frontend</h4>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span  style="width: 50px;height: 30px;"class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span>
+                                        <span class="skills__name">&nbsp HTML5</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="95">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">95%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <span style="width: 50px;height: 30px;" class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span>
+                                        <span class="skills__name">&nbsp CSS3</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="85">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">85%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:react" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp React JS</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;"class="iconify" data-icon="logos-bootstrap" data-inline="false"></span>
+                                        <span class="skills__name">&nbsp Bootstrap</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="85">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">85%</span> -->
+                                    </div>
+                                </div>
+                                       
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 skill-box">
+                                <h4 class="skill-header text-center">Backend</h4>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="vscode-icons:file-type-django" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Django</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:nodejs" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Node JS</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="skill-icons:expressjs-light" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Express JS</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="skill-icons:docker" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Docker</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 skill-box">
+                                <h4 class="skill-header text-center">Tools</h4>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:postman-icon" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Postman</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:git-icon" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Git & Github</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <!-- <h4 class="skill-header text-center">Familiar</h4> -->
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:flutter" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Flutter (familiar)</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                      <span style="width: 50px;height: 30px;" class="iconify" data-icon="logos:dart" data-inline="false"></span>
+                                        <!-- <span  class="iconify" data-icon="logos:github-octocat" data-inline="false"></span> -->
+                                        <span class="skills__name">&nbsp Dart (familiar)</span>
+                                    </div>
+                                    <div class="skills__bar" data-bar-width="75">
+        
+                                    </div>
+                                    <div>
+                                        <!-- <span class="skills__percentage">75%</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
         </div>
         <div class="projects" id="projects">
-            <h1>Projects</h1>
+            <div class="container-fluid">
+                <h4 class="about-header text-center project-header">Projects</h4>
+                <p class="card-text about-txt3 mt-3">
+                    Here are some notable projects that highlight my capabilities and expertise:
+                </p>
+                <div class="card project-card">
+                    <div class="blog-post " style="margin-top: 10vh;">
+                        <div class="blog-post__img" style="height: 10%;">
+                            <img src="assets/img/sportscomplex.png" alt="">
+                        </div>
+                        <div class="blog-post__info ">
+                            <h1 class="blog-post__title">Slot Booking System</h1>
+                            <p class="blog-post__text">
+                                <span class="text-highlight-2">DevClubSC</span> is a Django-based web application allows users to easily pre-book slots for various sports activities in a sports complex. With its intuitive interface and robust functionality, users can conveniently manage their bookings and enjoy their favorite sports without hassle
+                            </p>
+                            <div style="margin-bottom: 10px;"class="technologies">
+                              <p class="project-technologies">>> Frontend- HTML, CSS, Bootstarp</p>
+                              <p class="project-technologies">>> Backend- Django</p>
+                              
+                            </div>
+                            <!-- <div class="social-media pro-icon">
+                                <a href="#"><i class='bx bxl-github' ></i></a>   
+                                <a href="#"><i class='bx bx-comment-detail'></i> </a>                         
+                            </div> -->
+                            <div class="d-flex mt-2">
+                                <div>
+                                    <ul style="margin-bottom: 20px;" class="project-icons">
+                                      <li><a class="github " href="https://github.com/lavishabhambri/CodeFry"><i class="fab fa-github"></i></a></li>
+                                      <li><a class="github mx-2" href="https://github.com/lavishabhambri/CodeFry"><i class='bx bx-comment-detail'></i></a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-post " style="margin-top: 10vh;">
+                        <div class="blog-post__img" style="height: 10%;">
+                            <img src="assets/img/covid19.png" alt="">
+                        </div>
+                        <div class="blog-post__info ">
+                            <h1 class="blog-post__title">CovidGrapher</h1>
+                            <p class="blog-post__text">
+                                <span class="text-highlight-2">CovidGrapher</span> is a web application built on Node.js (Express.js), APIs, and Bootstrap. By selecting a state, start date, and duration, users can explore real-time COVID-19 case data fetched from an online API and presented in visually appealing graph form.
+                            </p>
+                            <div style="margin-bottom: 10px;"class="technologies">
+                              <p class="project-technologies">>> Frontend- HTML, CSS, Bootstarp</p>
+                              <p class="project-technologies">>> Backend- Node.js, Express.js, ejs, API's</p>
+                              
+                            </div>
+                            <!-- <div class="social-media pro-icon">
+                                <a href="#"><i class='bx bxl-github' ></i></a>   
+                                <a href="#"><i class='bx bx-comment-detail'></i> </a>                         
+                            </div> -->
+                            <div class="d-flex mt-2">
+                                <div>
+                                    <ul style="margin-bottom: 20px;" class="project-icons">
+                                      <li><a class="github " href="https://github.com/lavishabhambri/CodeFry"><i class="fab fa-github"></i></a></li>
+                                      <li><a class="github mx-2" href="https://github.com/lavishabhambri/CodeFry"><i class='bx bx-comment-detail'></i></a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-post " style="margin-top: 10vh;">
+                        <div class="blog-post__img" style="height: 10%;">
+                            <img src="assets/img/lms.jpg" alt="">
+                        </div>
+                        <div class="blog-post__info ">
+                            <h1 class="blog-post__title">DevClubLMS</h1>
+                            <p class="blog-post__text">
+                                <span class="text-highlight-2">DevClubLMS</span>  is a user-friendly online platform designed to enhance the learning experience for both instructors and students. Built using the Django framework, this learning management system provides a comprehensive set of features that enable seamless communication, resource sharing, grading, and assessment.
+                            </p>
+                            <div style="margin-bottom: 10px;"class="technologies">
+                              <p class="project-technologies">>> Frontend- HTML, CSS, Bootstarp</p>
+                              <p class="project-technologies">>> Backend- Django</p>
+                              
+                            </div>
+                            <!-- <div class="social-media pro-icon">
+                                <a href="#"><i class='bx bxl-github' ></i></a>   
+                                <a href="#"><i class='bx bx-comment-detail'></i> </a>                         
+                            </div> -->
+                            <div class="d-flex mt-2">
+                                <div>
+                                    <ul style="margin-bottom: 20px;" class="project-icons">
+                                      <li><a class="github " href="https://github.com/lavishabhambri/CodeFry"><i class="fab fa-github"></i></a></li>
+                                      <li><a class="github mx-2" href="https://github.com/lavishabhambri/CodeFry"><i class='bx bx-comment-detail'></i></a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+               
         </div>
         <div class="hoobies" id="hoobies">
             <h1>Hoobies</h1>
