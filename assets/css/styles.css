@@ -46,6 +46,8 @@
 .card-margin{
   margin-top: 5%;
   margin-left: 5%;
+  padding-top: 10%;
+  padding-left: 9%;
 }
 .shift-right{
   float: right !important;
@@ -61,7 +63,7 @@
   border-radius: 50%;
   font-size: 1.5rem;
   color: #0ef;
-  margin: 3rem 1.5rem 3rem 0;
+  margin: 2rem 1.5rem 3rem 0;
   text-decoration: none;
   transition: 0.3s;
 

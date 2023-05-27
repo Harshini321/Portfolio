@@ -15,8 +15,8 @@ canvas {
   background-color: #000;
   /* background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png"); */
   background-repeat: no-repeat;
-  background-size: 20%;
-  background-position: 50% 50%;
+  background-size: 20% !important;
+  background-position: 50% 50% !important;
 } /* ---- stats.js ---- */
 .count-particles {
   background: #000;
