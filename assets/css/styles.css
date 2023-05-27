@@ -113,7 +113,7 @@
   color: #F6F1E9 !important;
   margin-bottom: -0%;
   text-align: center;
-  line-height: 33px;
+  line-height: 30px;
   /* opacity: 0.8; */
 }
 .about-txt3{
@@ -216,6 +216,10 @@
 }
 .project-header{
   padding-top: 70px;
+  /* margin-top: 100px; */
+}
+.project-header1{
+  padding-top: 100px;
   /* margin-top: 100px; */
 }
 .project-card{
@@ -348,6 +352,230 @@
   transform: scale(1.1);
 }
 
+/* EXPERIENCE */
+.experience-header{
+  padding-top: 100px;
+}
+
+.exp-txt2{
+  margin-top: -20px;
+}
+.text-color{
+  color: #F6F1E9;
+}
+
+
+/* Work Experience */
+.experience{
+  margin: auto;
+}
+.timeline {
+    position: relative;
+    width: 75%;
+    /* margin: 60px auto; */
+    margin: 60px auto 0px;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 45%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.8%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timeline-container {
+    padding: 2px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed;
+    /* border-image: linear-gradient(#fff400, #ffa601 ,#f3503c, #d53567, #A7489B); */
+    border-image:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,238,255,1) 100%);
+    border-image-slice: 1;
+    height: 86%;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #fff;
+    text-shadow: 0px 4px 16px rgba(255,255,255,.8);
+}
+
+.experience-designation {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 10px 0px;
+    color: #F6F1E9;
+}
+
+.experience-company-name {
+    margin: 3px 0 0;
+    color: #0ef;
+    /* background: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 18px;
+    text-align: left;
+}
+
+.experience-duration {
+    font-weight: 100;
+    color: #dddddd;
+    font-size: 1rem;
+    text-align: left;
+    margin: 5px 0px;
+}
+
+.experience-description {
+    font-size: 17px;
+    /* padding: 2px; */
+    color: lightgrey;
+    line-height: 24px;
+    margin-top: -0.3px;
+  margin-bottom: -0.3px;
+}
+
+.text-align-justify {
+    text-align: left;
+}
+
+
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.expEdu-title{
+  position: relative;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.expEdu-title::after{
+  position: absolute;
+  content: "";
+  width: 170px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+  border-bottom: 3px solid ;
+  border-image: linear-gradient(45deg, #fff400, #ffa601 ,#f3503c, #d53567, #A7489B);
+  border-image-slice: 1;
+}
+.skills-clr{
+  color: #0ef !important;
+}
+/* .timeline{
+  position: relative;
+  min-height: 150px;
+}
+.line{
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 1px);
+  width: 2px;
+  top: -50px;
+  bottom: -50px;
+  background-color: #0ef;
+  display: none;
+}
+
+.line:before,
+.line:after{
+  position: absolute;
+  display: block;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #0ef;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line:after{
+  bottom: 0;
+}
+.section{
+  display: flex;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 600ms ease;
+  position: relative;
+  z-index: 1;
+  margin: 50px 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  min-height: 300px;
+}
+.section:nth-child(odd){
+  flex-direction: row-reverse;
+  transform: translateX(100%);
+}
+.bead{
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #0ef;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+}
+.content{
+  width: calc(50% - 2rem);
+}
+.show-me:nth-child(n){
+  transform: none;
+  opacity: 1;
+} */
 /* ===== FOOTER =====*/
 .footer{
     background-color: #000;
