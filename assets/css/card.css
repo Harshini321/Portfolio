@@ -42,7 +42,12 @@
     border-radius: .5rem;
     box-shadow: 0px 5px 12px rgba(0, 238, 255, 1) !important;
 }
-
+.grad-clr{
+    background: linear-gradient(to right,rgb(60, 231, 244),#0ef,#F9F5F6,#fff );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
 .new:focus-within~.new, .new:hover~.new {
     transform: translateX(130px);
 }
