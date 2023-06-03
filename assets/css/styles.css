@@ -110,6 +110,7 @@
 .about{
   /* padding-top: 50px; */
   padding-bottom: 50px;
+  /* padding-top: 75px; */
 }
 .about-header{
   margin: auto;
@@ -118,6 +119,8 @@
   font-size: 36px !important;
   color: #F6F1E9;
   color: #0ef;
+  /* margin-top: 100px; */
+  padding-top: 130px;
   /* opacity: 0.8; */
   /* border-bottom: 5px solid red; */
 }
